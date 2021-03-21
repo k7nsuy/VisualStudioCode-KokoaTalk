@@ -1,0 +1,24 @@
+.user-component {
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-component__column:first-child {
+    display: flex;
+    align-items: center;
+}
+.user-component__picture {
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+}
+
+.user-component__title {
+    font-size: 26px;
+}
+
+.user-component__subtitle {
+    font-size: 18px;
+    opacity: 0.5;
+    margin-top: 6px;
+}
