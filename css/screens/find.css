@@ -1,0 +1,27 @@
+.find-icons {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.find-icons__icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.find-icons__icon span {
+    margin-top: 15px;
+}
+
+.recommend {
+    color: rgba(0,0,0,0.2);
+    margin-top: 15px;
+    border-top: var(--main-border);
+    padding-top: 15px;
+    border-bottom: var(--main-border);
+}
+
+.recommend-no {
+    padding: 100px 70px;
+}

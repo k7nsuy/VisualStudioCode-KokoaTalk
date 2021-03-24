@@ -9,3 +9,11 @@
     justify-content: center;
     align-items: center;
 }
+
+.badge-sm {
+    background-color: tomato;
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+    display: flex;
+}
