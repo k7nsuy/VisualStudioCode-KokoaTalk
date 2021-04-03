@@ -1,17 +1,27 @@
 .find-icons {
     display: flex;
-    justify-content: space-between;
-    
+    flex-wrap: wrap;
 }
 
 .find-icons__icon {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 25%;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: color 0.3s ease-in-out;
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 30px;
 }
 
 .find-icons__icon span {
     margin-top: 15px;
+    cursor: pointer;
+}
+
+.find-icons__icon i {
+    cursor: pointer;
 }
 
 .recommend {

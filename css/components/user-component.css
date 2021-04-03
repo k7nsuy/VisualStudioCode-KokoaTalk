@@ -16,6 +16,11 @@
     align-items: flex-end;
 }
 
+.user-component__column:last-child i {
+    color: black;
+    margin-right: 15px;
+}
+
 .user-component__picture {
     width: 60px;
     height: 60px;
@@ -47,6 +52,10 @@
     font-size: 18px;
     opacity: 0.5;
     margin-top: 6px;
+}
+
+.user-component__subtitle i {
+    color: red;
 }
 
 .user-component__time {

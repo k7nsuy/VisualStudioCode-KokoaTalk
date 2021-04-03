@@ -1,0 +1,30 @@
+.more-icons {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.more-icons__icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.more-icons__icon span {
+    margin-top: 15px;
+}
+
+.more-suggestions {
+    border-top: var(--main-border);
+    padding-top: 10px;
+    display: block;
+    flex-wrap: wrap;
+}
+
+.more-suggestions h4 {
+    padding: 15px;
+
+}
+
+.suggestion-kakao {
+}
